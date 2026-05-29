@@ -1,0 +1,1262 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAF_DEP3_Project_0001",
+	"name": "部署图 启航AI系统部署架构",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAF_DEP3_PhysicalView_0002",
+			"_parent": {
+				"$ref": "AAAAAAF_DEP3_Project_0001"
+			},
+			"name": "Physical View",
+			"ownedElements": [
+				{
+					"_type": "UMLDeploymentDiagram",
+					"_id": "AAAAAAF_DEP3_DeploymentDiagram_0003",
+					"_parent": {
+						"$ref": "AAAAAAF_DEP3_PhysicalView_0002"
+					},
+					"name": "图5-5 部署图 黑白版",
+					"ownedViews": [
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAF_DEP3_UMLTextBoxView_0004",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"fontColor": "#ffffff",
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"width": 1180,
+							"height": 700
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0005",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;20;1",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 300,
+							"top": 24,
+							"width": 580,
+							"height": 34,
+							"text": "部署图  启航AI系统部署架构",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAF_DEP3_RectangleView_0006",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"fillColor": "#000000",
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 40,
+							"top": 78,
+							"width": 245,
+							"height": 32
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0007",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "40:78;285:78;285:193;285:193;285:196;284:200;282:202;280:205;277:207;275:209;271:210;268:210;57:210;57:210;54:210;50:209;48:207;45:205;43:202;41:200;40:196;40:193;40:78;40:78"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0008",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"fontColor": "#ffffff",
+							"font": "Microsoft YaHei;16;1",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 44,
+							"top": 81,
+							"width": 237,
+							"height": 28,
+							"text": "客户端",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF_DEP3_RoundRectView_0009",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 64,
+							"top": 129,
+							"width": 197,
+							"height": 28
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0010",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;14;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 68,
+							"top": 131,
+							"width": 189,
+							"height": 26,
+							"text": "Vue.js SPA",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF_DEP3_RoundRectView_0011",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 64,
+							"top": 167,
+							"width": 197,
+							"height": 28
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0012",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;14;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 68,
+							"top": 169,
+							"width": 189,
+							"height": 26,
+							"text": "浏览器/H5",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAF_DEP3_RectangleView_0013",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"fillColor": "#000000",
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 315,
+							"top": 78,
+							"width": 245,
+							"height": 32
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0014",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "315:78;560:78;560:193;560:193;560:196;559:200;557:202;555:205;552:207;550:209;546:210;543:210;332:210;332:210;329:210;325:209;323:207;320:205;318:202;316:200;315:196;315:193;315:78;315:78"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0015",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"fontColor": "#ffffff",
+							"font": "Microsoft YaHei;16;1",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 319,
+							"top": 81,
+							"width": 237,
+							"height": 28,
+							"text": "网关层",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF_DEP3_RoundRectView_0016",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 339,
+							"top": 129,
+							"width": 197,
+							"height": 28
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0017",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;14;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 343,
+							"top": 131,
+							"width": 189,
+							"height": 26,
+							"text": "Nginx 反向代理",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF_DEP3_RoundRectView_0018",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 339,
+							"top": 167,
+							"width": 197,
+							"height": 28
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0019",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;14;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 343,
+							"top": 169,
+							"width": 189,
+							"height": 26,
+							"text": "负载均衡/SSL",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAF_DEP3_RectangleView_0020",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"fillColor": "#000000",
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 590,
+							"top": 78,
+							"width": 245,
+							"height": 32
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0021",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "590:78;835:78;835:193;835:193;835:196;834:200;832:202;830:205;827:207;825:209;821:210;818:210;607:210;607:210;604:210;600:209;598:207;595:205;593:202;591:200;590:196;590:193;590:78;590:78"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0022",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"fontColor": "#ffffff",
+							"font": "Microsoft YaHei;16;1",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 594,
+							"top": 81,
+							"width": 237,
+							"height": 28,
+							"text": "应用层",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF_DEP3_RoundRectView_0023",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 614,
+							"top": 129,
+							"width": 197,
+							"height": 28
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0024",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;14;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 618,
+							"top": 131,
+							"width": 189,
+							"height": 26,
+							"text": "Django REST API",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF_DEP3_RoundRectView_0025",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 614,
+							"top": 167,
+							"width": 197,
+							"height": 28
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0026",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;14;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 618,
+							"top": 169,
+							"width": 189,
+							"height": 26,
+							"text": "Celery Worker",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAF_DEP3_RectangleView_0027",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"fillColor": "#000000",
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 865,
+							"top": 78,
+							"width": 245,
+							"height": 32
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0028",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "865:78;1110:78;1110:193;1110:193;1110:196;1109:200;1107:202;1105:205;1102:207;1100:209;1096:210;1093:210;882:210;882:210;879:210;875:209;873:207;870:205;868:202;866:200;865:196;865:193;865:78;865:78"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0029",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"fontColor": "#ffffff",
+							"font": "Microsoft YaHei;16;1",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 869,
+							"top": 81,
+							"width": 237,
+							"height": 28,
+							"text": "AI服务层",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF_DEP3_RoundRectView_0030",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 889,
+							"top": 129,
+							"width": 197,
+							"height": 28
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0031",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;14;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 893,
+							"top": 131,
+							"width": 189,
+							"height": 26,
+							"text": "大模型 API",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF_DEP3_RoundRectView_0032",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 889,
+							"top": 167,
+							"width": 197,
+							"height": 28
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0033",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;14;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 893,
+							"top": 169,
+							"width": 189,
+							"height": 26,
+							"text": "OCR/ASR 服务",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAF_DEP3_RectangleView_0034",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"fillColor": "#000000",
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 40,
+							"top": 360,
+							"width": 245,
+							"height": 32
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0035",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "40:360;285:360;285:475;285:475;285:478;284:482;282:484;280:487;277:489;275:491;271:492;268:492;57:492;57:492;54:492;50:491;48:489;45:487;43:484;41:482;40:478;40:475;40:360;40:360"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0036",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"fontColor": "#ffffff",
+							"font": "Microsoft YaHei;16;1",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 44,
+							"top": 363,
+							"width": 237,
+							"height": 28,
+							"text": "关系数据库",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF_DEP3_RoundRectView_0037",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 64,
+							"top": 411,
+							"width": 197,
+							"height": 28
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0038",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;14;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 68,
+							"top": 413,
+							"width": 189,
+							"height": 26,
+							"text": "MySQL 8.0",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF_DEP3_RoundRectView_0039",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 64,
+							"top": 449,
+							"width": 197,
+							"height": 28
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0040",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;14;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 68,
+							"top": 451,
+							"width": 189,
+							"height": 26,
+							"text": "主从复制",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAF_DEP3_RectangleView_0041",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"fillColor": "#000000",
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 315,
+							"top": 360,
+							"width": 245,
+							"height": 32
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0042",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "315:360;560:360;560:475;560:475;560:478;559:482;557:484;555:487;552:489;550:491;546:492;543:492;332:492;332:492;329:492;325:491;323:489;320:487;318:484;316:482;315:478;315:475;315:360;315:360"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0043",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"fontColor": "#ffffff",
+							"font": "Microsoft YaHei;16;1",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 319,
+							"top": 363,
+							"width": 237,
+							"height": 28,
+							"text": "缓存层",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF_DEP3_RoundRectView_0044",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 339,
+							"top": 411,
+							"width": 197,
+							"height": 28
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0045",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;14;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 343,
+							"top": 413,
+							"width": 189,
+							"height": 26,
+							"text": "Redis 7.0",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF_DEP3_RoundRectView_0046",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 339,
+							"top": 449,
+							"width": 197,
+							"height": 28
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0047",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;14;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 343,
+							"top": 451,
+							"width": 189,
+							"height": 26,
+							"text": "Session/热数据",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAF_DEP3_RectangleView_0048",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"fillColor": "#000000",
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 590,
+							"top": 360,
+							"width": 245,
+							"height": 32
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0049",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "590:360;835:360;835:475;835:475;835:478;834:482;832:484;830:487;827:489;825:491;821:492;818:492;607:492;607:492;604:492;600:491;598:489;595:487;593:484;591:482;590:478;590:475;590:360;590:360"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0050",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"fontColor": "#ffffff",
+							"font": "Microsoft YaHei;16;1",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 594,
+							"top": 363,
+							"width": 237,
+							"height": 28,
+							"text": "对象存储",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF_DEP3_RoundRectView_0051",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 614,
+							"top": 411,
+							"width": 197,
+							"height": 28
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0052",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;14;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 618,
+							"top": 413,
+							"width": 189,
+							"height": 26,
+							"text": "MinIO/OSS",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF_DEP3_RoundRectView_0053",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 614,
+							"top": 449,
+							"width": 197,
+							"height": 28
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0054",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;14;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 618,
+							"top": 451,
+							"width": 189,
+							"height": 26,
+							"text": "简历/报告PDF",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAF_DEP3_RectangleView_0055",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"fillColor": "#000000",
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 865,
+							"top": 360,
+							"width": 245,
+							"height": 32
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0056",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "865:360;1110:360;1110:475;1110:475;1110:478;1109:482;1107:484;1105:487;1102:489;1100:491;1096:492;1093:492;882:492;882:492;879:492;875:491;873:489;870:487;868:484;866:482;865:478;865:475;865:360;865:360"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0057",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"fontColor": "#ffffff",
+							"font": "Microsoft YaHei;16;1",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 869,
+							"top": 363,
+							"width": 237,
+							"height": 28,
+							"text": "数据采集",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF_DEP3_RoundRectView_0058",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 889,
+							"top": 411,
+							"width": 197,
+							"height": 28
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0059",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;14;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 893,
+							"top": 413,
+							"width": 189,
+							"height": 26,
+							"text": "Scrapy 集群",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RoundRectView",
+							"_id": "AAAAAAF_DEP3_RoundRectView_0060",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 889,
+							"top": 449,
+							"width": 197,
+							"height": 28
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0061",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;14;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 893,
+							"top": 451,
+							"width": 189,
+							"height": 26,
+							"text": "招聘平台爬虫",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0062",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "285:144;315:144",
+							"headEndStyle": 1
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0063",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;13;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 272,
+							"top": 112,
+							"width": 58,
+							"height": 25,
+							"text": "HTTPS",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0064",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "560:144;590:144",
+							"headEndStyle": 1
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0065",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;13;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 544,
+							"top": 117,
+							"width": 58,
+							"height": 25,
+							"text": "HTTP",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0066",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "835:144;865:144",
+							"headEndStyle": 1
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0067",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;13;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 816,
+							"top": 112,
+							"width": 70,
+							"height": 25,
+							"text": "REST API",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0068",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "438:210;438:360",
+							"headEndStyle": 1
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0069",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;12;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 280,
+							"top": 264,
+							"width": 130,
+							"height": 24,
+							"text": "TCP Session缓存",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0071",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "716:210;468:360",
+							"headEndStyle": 1
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0072",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;12;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 592,
+							"top": 272,
+							"width": 88,
+							"height": 24,
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0073",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "713:210;713:360",
+							"lineMode": 2,
+							"headEndStyle": 1
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0074",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;13;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 723,
+							"top": 276,
+							"width": 70,
+							"height": 25,
+							"text": " API",
+							"vertAlign": 5
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0075",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "745:210;985:360",
+							"headEndStyle": 1
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0076",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;13;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 864,
+							"top": 264,
+							"width": 90,
+							"height": 25,
+							"text": "HTTP调度",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0077",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "655:210;160:360",
+							"headEndStyle": 1
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0078",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;12;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 468,
+							"top": 294,
+							"width": 86,
+							"height": 24,
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0079",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;13;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 40,
+							"top": 625,
+							"width": 60,
+							"height": 25,
+							"text": "图例:",
+							"vertAlign": 5
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0080",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "100:637;145:637"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0081",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;13;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 150,
+							"top": 625,
+							"width": 90,
+							"height": 25,
+							"text": "同步通信",
+							"vertAlign": 5
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAF_DEP3_Line_0082",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"font": "Microsoft YaHei;15;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"lineStyle": 1,
+							"points": "250:637;300:637",
+							"lineMode": 2
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF_DEP3_UMLTextView_0083",
+							"_parent": {
+								"$ref": "AAAAAAF_DEP3_DeploymentDiagram_0003"
+							},
+							"lineColor": "#ffffff",
+							"font": "Microsoft YaHei;13;0",
+							"parentStyle": false,
+							"showShadow": false,
+							"left": 305,
+							"top": 625,
+							"width": 130,
+							"height": 25,
+							"text": "异步/对象存储",
+							"vertAlign": 5
+						}
+					]
+				}
+			]
+		}
+	],
+	"documentVersion": 1
+}

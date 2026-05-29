@@ -1,0 +1,51 @@
+# ========== 设计文档（不提交） ==========
+启航AI_软件建模设计文档_v3.0.docx
+**/设计文档*.docx
+**/职业生涯规划模块迭代设计说明*.docx
+**/FURPS+*.md
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+*.egg
+venv/
+.venv/
+env/
+
+# ========== Django ==========
+*.sqlite3
+*.sqlite3-journal
+backend/staticfiles/
+media/
+
+# ========== Environment ==========
+.env
+.env.local
+.env.production
+
+# ========== Node ==========
+node_modules/
+
+# ========== IDE ==========
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ========== OS ==========
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========== Claude Code ==========
+.claude/
+
+# ========== StarUML backups ==========
+*.bak_*
+
+# ========== Logs ==========
+*.log

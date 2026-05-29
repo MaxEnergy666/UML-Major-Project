@@ -1,0 +1,655 @@
+{
+  "_type": "Project",
+  "_id": "P5ac4841ebed2490e96756e",
+  "name": "启航AI SSD",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "Md1f57f1f2a744626bf0c5d",
+      "_parent": {
+        "$ref": "P5ac4841ebed2490e96756e"
+      },
+      "name": "SSD Model",
+      "ownedElements": [
+        {
+          "_type": "UMLCollaboration",
+          "_id": "C8ecb88e4a3124e028cf6b6",
+          "_parent": {
+            "$ref": "Md1f57f1f2a744626bf0c5d"
+          },
+          "name": "生成用户画像（用例14）",
+          "ownedElements": [
+            {
+              "_type": "UMLInteraction",
+              "_id": "I51deb1070a984c6eae6a4c",
+              "_parent": {
+                "$ref": "C8ecb88e4a3124e028cf6b6"
+              },
+              "name": "生成用户画像（用例14）",
+              "participants": [
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "L2afe9d23df02415fb364a1",
+                  "_parent": {
+                    "$ref": "I51deb1070a984c6eae6a4c"
+                  },
+                  "name": "用户",
+                  "represent": {
+                    "$ref": "Re374d89d9f2a42b18433c9"
+                  }
+                },
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "L7932c7df0fbe40d6914cff",
+                  "_parent": {
+                    "$ref": "I51deb1070a984c6eae6a4c"
+                  },
+                  "name": "系统",
+                  "represent": {
+                    "$ref": "R793a0ddad86c47d0ae31ef"
+                  }
+                }
+              ],
+              "messages": [
+                {
+                  "_type": "UMLMessage",
+                  "_id": "MSG12a0dde059b84f7d904d62",
+                  "_parent": {
+                    "$ref": "I51deb1070a984c6eae6a4c"
+                  },
+                  "name": "进入用户画像模块",
+                  "messageSort": "synchCall",
+                  "source": {
+                    "$ref": "L2afe9d23df02415fb364a1"
+                  },
+                  "target": {
+                    "$ref": "L7932c7df0fbe40d6914cff"
+                  }
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "MSGd99cfd39cda64ac39bafdc",
+                  "_parent": {
+                    "$ref": "I51deb1070a984c6eae6a4c"
+                  },
+                  "name": "返回前置数据状态与生成入口",
+                  "messageSort": "reply",
+                  "source": {
+                    "$ref": "L7932c7df0fbe40d6914cff"
+                  },
+                  "target": {
+                    "$ref": "L2afe9d23df02415fb364a1"
+                  }
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "MSG396a0d89f5ac4c86b56eed",
+                  "_parent": {
+                    "$ref": "I51deb1070a984c6eae6a4c"
+                  },
+                  "name": "generateUserProfile(userId)",
+                  "messageSort": "synchCall",
+                  "source": {
+                    "$ref": "L2afe9d23df02415fb364a1"
+                  },
+                  "target": {
+                    "$ref": "L7932c7df0fbe40d6914cff"
+                  }
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "MSG5409269b3a374b558c9d50",
+                  "_parent": {
+                    "$ref": "I51deb1070a984c6eae6a4c"
+                  },
+                  "name": "返回生成进度",
+                  "messageSort": "reply",
+                  "source": {
+                    "$ref": "L7932c7df0fbe40d6914cff"
+                  },
+                  "target": {
+                    "$ref": "L2afe9d23df02415fb364a1"
+                  }
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "MSG16952adf57f646cfb32291",
+                  "_parent": {
+                    "$ref": "I51deb1070a984c6eae6a4c"
+                  },
+                  "name": "返回并展示用户画像报告",
+                  "messageSort": "reply",
+                  "source": {
+                    "$ref": "L7932c7df0fbe40d6914cff"
+                  },
+                  "target": {
+                    "$ref": "L2afe9d23df02415fb364a1"
+                  }
+                }
+              ],
+              "ownedElements": [
+                {
+                  "_type": "UMLSequenceDiagram",
+                  "_id": "Db2f6c5b94f304dad8720d8",
+                  "_parent": {
+                    "$ref": "I51deb1070a984c6eae6a4c"
+                  },
+                  "name": "SSD_用例14_生成用户画像",
+                  "visible": true,
+                  "defaultDiagram": false,
+                  "showSequenceNumber": true,
+                  "showSignature": false,
+                  "showActivation": false,
+                  "sequenceNumbering": "auto",
+                  "ownedViews": [
+                    {
+                      "_type": "UMLFrameView",
+                      "_id": "V1d605e409c9d4975a720ac",
+                      "_parent": {
+                        "$ref": "Db2f6c5b94f304dad8720d8"
+                      },
+                      "model": {
+                        "$ref": "Db2f6c5b94f304dad8720d8"
+                      },
+                      "left": 8,
+                      "top": 8,
+                      "width": 980,
+                      "height": 693,
+                      "showType": false,
+                      "showNamespace": false,
+                      "showDiagramName": false
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "V01b0c674673a49688653a5",
+                      "_parent": {
+                        "$ref": "Db2f6c5b94f304dad8720d8"
+                      },
+                      "model": {
+                        "$ref": "L2afe9d23df02415fb364a1"
+                      },
+                      "left": 120,
+                      "top": 58,
+                      "width": 150,
+                      "height": 563,
+                      "stereotypeDisplay": "label",
+                      "subViews": [
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "LPb844e8e2ceb54aed825b82",
+                          "_parent": {
+                            "$ref": "V01b0c674673a49688653a5"
+                          },
+                          "model": {
+                            "$ref": "L2afe9d23df02415fb364a1"
+                          },
+                          "left": 195.0,
+                          "top": 118,
+                          "width": 1,
+                          "height": 523
+                        }
+                      ]
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "Veb704d9bb766424894369d",
+                      "_parent": {
+                        "$ref": "Db2f6c5b94f304dad8720d8"
+                      },
+                      "model": {
+                        "$ref": "L7932c7df0fbe40d6914cff"
+                      },
+                      "left": 620,
+                      "top": 58,
+                      "width": 150,
+                      "height": 563,
+                      "stereotypeDisplay": "label",
+                      "subViews": [
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "LP572ce558e521429a804ff7",
+                          "_parent": {
+                            "$ref": "Veb704d9bb766424894369d"
+                          },
+                          "model": {
+                            "$ref": "L7932c7df0fbe40d6914cff"
+                          },
+                          "left": 695.0,
+                          "top": 118,
+                          "width": 1,
+                          "height": 523
+                        }
+                      ]
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "MV453df3244e7b41949b48c1",
+                      "_parent": {
+                        "$ref": "Db2f6c5b94f304dad8720d8"
+                      },
+                      "model": {
+                        "$ref": "MSG12a0dde059b84f7d904d62"
+                      },
+                      "tail": {
+                        "$ref": "LPb844e8e2ceb54aed825b82"
+                      },
+                      "head": {
+                        "$ref": "LP572ce558e521429a804ff7"
+                      },
+                      "points": "195.0:165;695.0:165"
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "MVedbee9a8b2c9497188270c",
+                      "_parent": {
+                        "$ref": "Db2f6c5b94f304dad8720d8"
+                      },
+                      "model": {
+                        "$ref": "MSGd99cfd39cda64ac39bafdc"
+                      },
+                      "tail": {
+                        "$ref": "LP572ce558e521429a804ff7"
+                      },
+                      "head": {
+                        "$ref": "LPb844e8e2ceb54aed825b82"
+                      },
+                      "points": "695.0:229;195.0:229"
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "MV8baca44984904554bc0faa",
+                      "_parent": {
+                        "$ref": "Db2f6c5b94f304dad8720d8"
+                      },
+                      "model": {
+                        "$ref": "MSG396a0d89f5ac4c86b56eed"
+                      },
+                      "tail": {
+                        "$ref": "LPb844e8e2ceb54aed825b82"
+                      },
+                      "head": {
+                        "$ref": "LP572ce558e521429a804ff7"
+                      },
+                      "points": "195.0:293;695.0:293"
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "MV6e7a9f20b63542ef87b5a7",
+                      "_parent": {
+                        "$ref": "Db2f6c5b94f304dad8720d8"
+                      },
+                      "model": {
+                        "$ref": "MSG5409269b3a374b558c9d50"
+                      },
+                      "tail": {
+                        "$ref": "LP572ce558e521429a804ff7"
+                      },
+                      "head": {
+                        "$ref": "LPb844e8e2ceb54aed825b82"
+                      },
+                      "points": "695.0:357;195.0:357"
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "MVfbf1950ef13b47d388b6a7",
+                      "_parent": {
+                        "$ref": "Db2f6c5b94f304dad8720d8"
+                      },
+                      "model": {
+                        "$ref": "MSG16952adf57f646cfb32291"
+                      },
+                      "tail": {
+                        "$ref": "LP572ce558e521429a804ff7"
+                      },
+                      "head": {
+                        "$ref": "LPb844e8e2ceb54aed825b82"
+                      },
+                      "points": "695.0:421;195.0:421"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "Re374d89d9f2a42b18433c9",
+              "_parent": {
+                "$ref": "C8ecb88e4a3124e028cf6b6"
+              },
+              "name": "用户Role"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "R793a0ddad86c47d0ae31ef",
+              "_parent": {
+                "$ref": "C8ecb88e4a3124e028cf6b6"
+              },
+              "name": "系统Role"
+            }
+          ]
+        },
+        {
+          "_type": "UMLCollaboration",
+          "_id": "C2d011030776a4386845f3c",
+          "_parent": {
+            "$ref": "Md1f57f1f2a744626bf0c5d"
+          },
+          "name": "查看职业规划建议（用例18）",
+          "ownedElements": [
+            {
+              "_type": "UMLInteraction",
+              "_id": "I4ddf8cd6fd6e44f78788cd",
+              "_parent": {
+                "$ref": "C2d011030776a4386845f3c"
+              },
+              "name": "查看职业规划建议（用例18）",
+              "participants": [
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "Lf93ef35b7a9d450d8159e9",
+                  "_parent": {
+                    "$ref": "I4ddf8cd6fd6e44f78788cd"
+                  },
+                  "name": "用户",
+                  "represent": {
+                    "$ref": "Rc6ae441dc88745b6a3f2d4"
+                  }
+                },
+                {
+                  "_type": "UMLLifeline",
+                  "_id": "La21c0b7466824633acc12e",
+                  "_parent": {
+                    "$ref": "I4ddf8cd6fd6e44f78788cd"
+                  },
+                  "name": "系统",
+                  "represent": {
+                    "$ref": "Rd3c6cb37a527459193b764"
+                  }
+                }
+              ],
+              "messages": [
+                {
+                  "_type": "UMLMessage",
+                  "_id": "MSG9fb19c96951f4389a4539a",
+                  "_parent": {
+                    "$ref": "I4ddf8cd6fd6e44f78788cd"
+                  },
+                  "name": "进入职业生涯规划模块",
+                  "messageSort": "synchCall",
+                  "source": {
+                    "$ref": "Lf93ef35b7a9d450d8159e9"
+                  },
+                  "target": {
+                    "$ref": "La21c0b7466824633acc12e"
+                  }
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "MSG116970fde4c94c3fb254f9",
+                  "_parent": {
+                    "$ref": "I4ddf8cd6fd6e44f78788cd"
+                  },
+                  "name": "返回画像状态与规划入口",
+                  "messageSort": "reply",
+                  "source": {
+                    "$ref": "La21c0b7466824633acc12e"
+                  },
+                  "target": {
+                    "$ref": "Lf93ef35b7a9d450d8159e9"
+                  }
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "MSGd0a525edabb14e7fa84cd0",
+                  "_parent": {
+                    "$ref": "I4ddf8cd6fd6e44f78788cd"
+                  },
+                  "name": "generateCareerPlanReport(userId)",
+                  "messageSort": "synchCall",
+                  "source": {
+                    "$ref": "Lf93ef35b7a9d450d8159e9"
+                  },
+                  "target": {
+                    "$ref": "La21c0b7466824633acc12e"
+                  }
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "MSGa7f4685aea394abb878e79",
+                  "_parent": {
+                    "$ref": "I4ddf8cd6fd6e44f78788cd"
+                  },
+                  "name": "返回生成进度",
+                  "messageSort": "reply",
+                  "source": {
+                    "$ref": "La21c0b7466824633acc12e"
+                  },
+                  "target": {
+                    "$ref": "Lf93ef35b7a9d450d8159e9"
+                  }
+                },
+                {
+                  "_type": "UMLMessage",
+                  "_id": "MSG2775c489a4ce487180f987",
+                  "_parent": {
+                    "$ref": "I4ddf8cd6fd6e44f78788cd"
+                  },
+                  "name": "返回并展示职业规划建议报告",
+                  "messageSort": "reply",
+                  "source": {
+                    "$ref": "La21c0b7466824633acc12e"
+                  },
+                  "target": {
+                    "$ref": "Lf93ef35b7a9d450d8159e9"
+                  }
+                }
+              ],
+              "ownedElements": [
+                {
+                  "_type": "UMLSequenceDiagram",
+                  "_id": "D89042d7375344483b69621",
+                  "_parent": {
+                    "$ref": "I4ddf8cd6fd6e44f78788cd"
+                  },
+                  "name": "SSD_用例18_查看职业规划建议",
+                  "visible": true,
+                  "defaultDiagram": false,
+                  "showSequenceNumber": true,
+                  "showSignature": false,
+                  "showActivation": false,
+                  "sequenceNumbering": "auto",
+                  "ownedViews": [
+                    {
+                      "_type": "UMLFrameView",
+                      "_id": "V2ed0141c988b41199ee9a5",
+                      "_parent": {
+                        "$ref": "D89042d7375344483b69621"
+                      },
+                      "model": {
+                        "$ref": "D89042d7375344483b69621"
+                      },
+                      "left": 8,
+                      "top": 8,
+                      "width": 980,
+                      "height": 693,
+                      "showType": false,
+                      "showNamespace": false,
+                      "showDiagramName": false
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "Vee9ac1657a5f4c1a93c11f",
+                      "_parent": {
+                        "$ref": "D89042d7375344483b69621"
+                      },
+                      "model": {
+                        "$ref": "Lf93ef35b7a9d450d8159e9"
+                      },
+                      "left": 120,
+                      "top": 58,
+                      "width": 150,
+                      "height": 563,
+                      "stereotypeDisplay": "label",
+                      "subViews": [
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "LPe8632f0634c04663959f5a",
+                          "_parent": {
+                            "$ref": "Vee9ac1657a5f4c1a93c11f"
+                          },
+                          "model": {
+                            "$ref": "Lf93ef35b7a9d450d8159e9"
+                          },
+                          "left": 195.0,
+                          "top": 118,
+                          "width": 1,
+                          "height": 523
+                        }
+                      ]
+                    },
+                    {
+                      "_type": "UMLSeqLifelineView",
+                      "_id": "V47c3a2ce0c9f412badf618",
+                      "_parent": {
+                        "$ref": "D89042d7375344483b69621"
+                      },
+                      "model": {
+                        "$ref": "La21c0b7466824633acc12e"
+                      },
+                      "left": 620,
+                      "top": 58,
+                      "width": 150,
+                      "height": 563,
+                      "stereotypeDisplay": "label",
+                      "subViews": [
+                        {
+                          "_type": "UMLLinePartView",
+                          "_id": "LP8ce158accbe84dbcb2fb21",
+                          "_parent": {
+                            "$ref": "V47c3a2ce0c9f412badf618"
+                          },
+                          "model": {
+                            "$ref": "La21c0b7466824633acc12e"
+                          },
+                          "left": 695.0,
+                          "top": 118,
+                          "width": 1,
+                          "height": 523
+                        }
+                      ]
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "MVd1f2b6350a8844f7b842d3",
+                      "_parent": {
+                        "$ref": "D89042d7375344483b69621"
+                      },
+                      "model": {
+                        "$ref": "MSG9fb19c96951f4389a4539a"
+                      },
+                      "tail": {
+                        "$ref": "LPe8632f0634c04663959f5a"
+                      },
+                      "head": {
+                        "$ref": "LP8ce158accbe84dbcb2fb21"
+                      },
+                      "points": "195.0:165;695.0:165"
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "MVe43bf1a3cab848cbaf7aea",
+                      "_parent": {
+                        "$ref": "D89042d7375344483b69621"
+                      },
+                      "model": {
+                        "$ref": "MSG116970fde4c94c3fb254f9"
+                      },
+                      "tail": {
+                        "$ref": "LP8ce158accbe84dbcb2fb21"
+                      },
+                      "head": {
+                        "$ref": "LPe8632f0634c04663959f5a"
+                      },
+                      "points": "695.0:229;195.0:229"
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "MV2ca1c57c387f482e99275f",
+                      "_parent": {
+                        "$ref": "D89042d7375344483b69621"
+                      },
+                      "model": {
+                        "$ref": "MSGd0a525edabb14e7fa84cd0"
+                      },
+                      "tail": {
+                        "$ref": "LPe8632f0634c04663959f5a"
+                      },
+                      "head": {
+                        "$ref": "LP8ce158accbe84dbcb2fb21"
+                      },
+                      "points": "195.0:293;695.0:293"
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "MV336dd397d7a44b0b8380c8",
+                      "_parent": {
+                        "$ref": "D89042d7375344483b69621"
+                      },
+                      "model": {
+                        "$ref": "MSGa7f4685aea394abb878e79"
+                      },
+                      "tail": {
+                        "$ref": "LP8ce158accbe84dbcb2fb21"
+                      },
+                      "head": {
+                        "$ref": "LPe8632f0634c04663959f5a"
+                      },
+                      "points": "695.0:357;195.0:357"
+                    },
+                    {
+                      "_type": "UMLSeqMessageView",
+                      "_id": "MVaf87a5f0b5b2403a9c97c1",
+                      "_parent": {
+                        "$ref": "D89042d7375344483b69621"
+                      },
+                      "model": {
+                        "$ref": "MSG2775c489a4ce487180f987"
+                      },
+                      "tail": {
+                        "$ref": "LP8ce158accbe84dbcb2fb21"
+                      },
+                      "head": {
+                        "$ref": "LPe8632f0634c04663959f5a"
+                      },
+                      "points": "695.0:421;195.0:421"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "Rc6ae441dc88745b6a3f2d4",
+              "_parent": {
+                "$ref": "C2d011030776a4386845f3c"
+              },
+              "name": "用户Role"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "Rd3c6cb37a527459193b764",
+              "_parent": {
+                "$ref": "C2d011030776a4386845f3c"
+              },
+              "name": "系统Role"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3723 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAF_Project_0001",
+	"name": "图5-4 状态图——用户画像(UserProfile)生命周期",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAF_Model_0002",
+			"_parent": {
+				"$ref": "AAAAAAF_Project_0001"
+			},
+			"name": "RootModel",
+			"ownedElements": [
+				{
+					"_type": "UMLStateMachine",
+					"_id": "AAAAAAF_UserProfileStateMachine_0003",
+					"_parent": {
+						"$ref": "AAAAAAF_Model_0002"
+					},
+					"name": "用户画像(UserProfile)生命周期",
+					"ownedElements": [
+						{
+							"_type": "UMLStatechartDiagram",
+							"_id": "AAAAAAF_StatechartDiagram_0004",
+							"_parent": {
+								"$ref": "AAAAAAF_UserProfileStateMachine_0003"
+							},
+							"name": "图5-4 状态图 黑白版",
+							"ownedViews": [
+								{
+									"_type": "UMLTextBoxView",
+									"_id": "AAAAAAF_WhiteBackground_0037",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"fontColor": "#ffffff",
+									"font": "Microsoft YaHei;17;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 16,
+									"width": 1128,
+									"height": 1380
+								},
+								{
+									"_type": "UMLPseudostateView",
+									"_id": "AAAAAAF_InitialView_0021",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_InitialModel_0020"
+									},
+									"subViews": [
+										{
+											"_type": "NodeLabelView",
+											"_id": "AAAAAAGeVOasG9W8ZOI=",
+											"_parent": {
+												"$ref": "AAAAAAF_InitialView_0021"
+											},
+											"model": {
+												"$ref": "AAAAAAF_InitialModel_0020"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 339,
+											"top": 44.5,
+											"height": 13,
+											"alpha": 2.356194490192345,
+											"distance": 20
+										},
+										{
+											"_type": "NodeLabelView",
+											"_id": "AAAAAAGeVOasG9W9jVw=",
+											"_parent": {
+												"$ref": "AAAAAAF_InitialView_0021"
+											},
+											"model": {
+												"$ref": "AAAAAAF_InitialModel_0020"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 329,
+											"top": 34.5,
+											"height": 13,
+											"alpha": 2.356194490192345,
+											"distance": 35
+										},
+										{
+											"_type": "NodeLabelView",
+											"_id": "AAAAAAGeVOasG9W+gJQ=",
+											"_parent": {
+												"$ref": "AAAAAAF_InitialView_0021"
+											},
+											"model": {
+												"$ref": "AAAAAAF_InitialModel_0020"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 339,
+											"top": 73.5,
+											"height": 13,
+											"alpha": -2.356194490192345,
+											"distance": 20
+										}
+									],
+									"fillColor": "#000000",
+									"font": "Microsoft YaHei;17;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"containerChangeable": true,
+									"left": 336,
+									"top": 48,
+									"width": 36,
+									"height": 36,
+									"nameLabel": {
+										"$ref": "AAAAAAGeVOasG9W8ZOI="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGeVOasG9W9jVw="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGeVOasG9W+gJQ="
+									}
+								},
+								{
+									"_type": "UMLStateView",
+									"_id": "AAAAAAF_StateView_Created_0013",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_State_Created_0006"
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAF_NameComp_Created_0039",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Created_0013"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Created_0006"
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHNXJkK4=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Created_0039"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"height": 17
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHNXKXaM=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Created_0039"
+													},
+													"font": "Microsoft YaHei;17;1",
+													"parentStyle": true,
+													"left": 255,
+													"top": 179,
+													"width": 195,
+													"height": 17,
+													"text": "未创建 (Created)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHNXLTPU=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Created_0039"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"width": 55.2666015625,
+													"height": 17,
+													"text": "(from )"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHNXMZ9Y=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Created_0039"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"height": 17,
+													"horizontalAlignment": 1
+												}
+											],
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 172,
+											"width": 205,
+											"height": 29,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGeVOasHNXJkK4="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGeVOasHNXKXaM="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGeVOasHNXLTPU="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGeVOasHNXMZ9Y="
+											}
+										},
+										{
+											"_type": "UMLInternalActivityCompartmentView",
+											"_id": "AAAAAAF_IAComp_Created_0040",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Created_0013"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Created_0006"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 172,
+											"width": 205,
+											"height": 10
+										},
+										{
+											"_type": "UMLInternalTransitionCompartmentView",
+											"_id": "AAAAAAF_ITComp_Created_0041",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Created_0013"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Created_0006"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 172,
+											"width": 205,
+											"height": 10
+										},
+										{
+											"_type": "UMLDecompositionCompartmentView",
+											"_id": "AAAAAAF_DecComp_Created_0042",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Created_0013"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Created_0006"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 172,
+											"width": 205
+										}
+									],
+									"font": "Microsoft YaHei;17;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"containerChangeable": true,
+									"left": 250,
+									"top": 172,
+									"width": 205,
+									"height": 90,
+									"nameCompartment": {
+										"$ref": "AAAAAAF_NameComp_Created_0039"
+									},
+									"internalActivityCompartment": {
+										"$ref": "AAAAAAF_IAComp_Created_0040"
+									},
+									"internalTransitionCompartment": {
+										"$ref": "AAAAAAF_ITComp_Created_0041"
+									},
+									"decompositionCompartment": {
+										"$ref": "AAAAAAF_DecComp_Created_0042"
+									}
+								},
+								{
+									"_type": "UMLStateView",
+									"_id": "AAAAAAF_StateView_InProgress_0014",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_State_InProgress_0007"
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAF_NameComp_InProgress_0043",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_InProgress_0014"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_InProgress_0007"
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHNXaVG0=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_InProgress_0043"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"height": 17
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHNXb/Z8=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_InProgress_0043"
+													},
+													"font": "Microsoft YaHei;17;1",
+													"parentStyle": true,
+													"left": 255,
+													"top": 422,
+													"width": 195,
+													"height": 17,
+													"text": "测评进行中 (InProgress)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHNXcAHQ=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_InProgress_0043"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"width": 55.2666015625,
+													"height": 17,
+													"text": "(from )"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHNXd8uA=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_InProgress_0043"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"height": 17,
+													"horizontalAlignment": 1
+												}
+											],
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 415,
+											"width": 205,
+											"height": 29,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGeVOasHNXaVG0="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGeVOasHNXb/Z8="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGeVOasHNXcAHQ="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGeVOasHNXd8uA="
+											}
+										},
+										{
+											"_type": "UMLInternalActivityCompartmentView",
+											"_id": "AAAAAAF_IAComp_InProgress_0044",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_InProgress_0014"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_InProgress_0007"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 415,
+											"width": 205,
+											"height": 10
+										},
+										{
+											"_type": "UMLInternalTransitionCompartmentView",
+											"_id": "AAAAAAF_ITComp_InProgress_0045",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_InProgress_0014"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_InProgress_0007"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 415,
+											"width": 205,
+											"height": 10
+										},
+										{
+											"_type": "UMLDecompositionCompartmentView",
+											"_id": "AAAAAAF_DecComp_InProgress_0046",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_InProgress_0014"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_InProgress_0007"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 415,
+											"width": 205
+										}
+									],
+									"font": "Microsoft YaHei;17;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"containerChangeable": true,
+									"left": 250,
+									"top": 415,
+									"width": 205,
+									"height": 90,
+									"nameCompartment": {
+										"$ref": "AAAAAAF_NameComp_InProgress_0043"
+									},
+									"internalActivityCompartment": {
+										"$ref": "AAAAAAF_IAComp_InProgress_0044"
+									},
+									"internalTransitionCompartment": {
+										"$ref": "AAAAAAF_ITComp_InProgress_0045"
+									},
+									"decompositionCompartment": {
+										"$ref": "AAAAAAF_DecComp_InProgress_0046"
+									}
+								},
+								{
+									"_type": "UMLStateView",
+									"_id": "AAAAAAF_StateView_Pending_0015",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_State_Pending_0008"
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAF_NameComp_Pending_0047",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Pending_0015"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Pending_0008"
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHNXr5TA=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Pending_0047"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"height": 17
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHNXszIg=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Pending_0047"
+													},
+													"font": "Microsoft YaHei;17;1",
+													"parentStyle": true,
+													"left": 255,
+													"top": 665,
+													"width": 195,
+													"height": 17,
+													"text": "待生成 (Pending)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHNXtDKk=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Pending_0047"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"width": 55.2666015625,
+													"height": 17,
+													"text": "(from )"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHNXuaK0=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Pending_0047"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"height": 17,
+													"horizontalAlignment": 1
+												}
+											],
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 658,
+											"width": 205,
+											"height": 29,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGeVOasHNXr5TA="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGeVOasHNXszIg="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGeVOasHNXtDKk="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGeVOasHNXuaK0="
+											}
+										},
+										{
+											"_type": "UMLInternalActivityCompartmentView",
+											"_id": "AAAAAAF_IAComp_Pending_0048",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Pending_0015"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Pending_0008"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 658,
+											"width": 205,
+											"height": 10
+										},
+										{
+											"_type": "UMLInternalTransitionCompartmentView",
+											"_id": "AAAAAAF_ITComp_Pending_0049",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Pending_0015"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Pending_0008"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 658,
+											"width": 205,
+											"height": 10
+										},
+										{
+											"_type": "UMLDecompositionCompartmentView",
+											"_id": "AAAAAAF_DecComp_Pending_0050",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Pending_0015"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Pending_0008"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 658,
+											"width": 205
+										}
+									],
+									"font": "Microsoft YaHei;17;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"containerChangeable": true,
+									"left": 250,
+									"top": 658,
+									"width": 205,
+									"height": 90,
+									"nameCompartment": {
+										"$ref": "AAAAAAF_NameComp_Pending_0047"
+									},
+									"internalActivityCompartment": {
+										"$ref": "AAAAAAF_IAComp_Pending_0048"
+									},
+									"internalTransitionCompartment": {
+										"$ref": "AAAAAAF_ITComp_Pending_0049"
+									},
+									"decompositionCompartment": {
+										"$ref": "AAAAAAF_DecComp_Pending_0050"
+									}
+								},
+								{
+									"_type": "UMLStateView",
+									"_id": "AAAAAAF_StateView_Generating_0016",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_State_Generating_0009"
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAF_NameComp_Generating_0051",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Generating_0016"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Generating_0009"
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHdX8EkE=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Generating_0051"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"height": 17
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHdX9STY=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Generating_0051"
+													},
+													"font": "Microsoft YaHei;17;1",
+													"parentStyle": true,
+													"left": 255,
+													"top": 907,
+													"width": 195,
+													"height": 17,
+													"text": "生成中 (Generating)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHdX+nm0=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Generating_0051"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"width": 55.2666015625,
+													"height": 17,
+													"text": "(from )"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHdX/tR4=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Generating_0051"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"height": 17,
+													"horizontalAlignment": 1
+												}
+											],
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 900,
+											"width": 205,
+											"height": 29,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGeVOasHdX8EkE="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGeVOasHdX9STY="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGeVOasHdX+nm0="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGeVOasHdX/tR4="
+											}
+										},
+										{
+											"_type": "UMLInternalActivityCompartmentView",
+											"_id": "AAAAAAF_IAComp_Generating_0052",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Generating_0016"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Generating_0009"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 900,
+											"width": 205,
+											"height": 10
+										},
+										{
+											"_type": "UMLInternalTransitionCompartmentView",
+											"_id": "AAAAAAF_ITComp_Generating_0053",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Generating_0016"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Generating_0009"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 900,
+											"width": 205,
+											"height": 10
+										},
+										{
+											"_type": "UMLDecompositionCompartmentView",
+											"_id": "AAAAAAF_DecComp_Generating_0054",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Generating_0016"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Generating_0009"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 900,
+											"width": 205
+										}
+									],
+									"font": "Microsoft YaHei;17;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"containerChangeable": true,
+									"left": 250,
+									"top": 900,
+									"width": 205,
+									"height": 90,
+									"nameCompartment": {
+										"$ref": "AAAAAAF_NameComp_Generating_0051"
+									},
+									"internalActivityCompartment": {
+										"$ref": "AAAAAAF_IAComp_Generating_0052"
+									},
+									"internalTransitionCompartment": {
+										"$ref": "AAAAAAF_ITComp_Generating_0053"
+									},
+									"decompositionCompartment": {
+										"$ref": "AAAAAAF_DecComp_Generating_0054"
+									}
+								},
+								{
+									"_type": "UMLStateView",
+									"_id": "AAAAAAF_StateView_Generated_0017",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_State_Generated_0010"
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAF_NameComp_Generated_0055",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Generated_0017"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Generated_0010"
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHdYNqtM=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Generated_0055"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"height": 17
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHdYOAK0=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Generated_0055"
+													},
+													"font": "Microsoft YaHei;17;1",
+													"parentStyle": true,
+													"left": 255,
+													"top": 1142,
+													"width": 195,
+													"height": 17,
+													"text": "已生成 (Generated)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHdYPiU4=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Generated_0055"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"width": 55.2666015625,
+													"height": 17,
+													"text": "(from )"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHdYQj+g=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Generated_0055"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"height": 17,
+													"horizontalAlignment": 1
+												}
+											],
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 1135,
+											"width": 205,
+											"height": 29,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGeVOasHdYNqtM="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGeVOasHdYOAK0="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGeVOasHdYPiU4="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGeVOasHdYQj+g="
+											}
+										},
+										{
+											"_type": "UMLInternalActivityCompartmentView",
+											"_id": "AAAAAAF_IAComp_Generated_0056",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Generated_0017"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Generated_0010"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 1135,
+											"width": 205,
+											"height": 10
+										},
+										{
+											"_type": "UMLInternalTransitionCompartmentView",
+											"_id": "AAAAAAF_ITComp_Generated_0057",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Generated_0017"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Generated_0010"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 1135,
+											"width": 205,
+											"height": 10
+										},
+										{
+											"_type": "UMLDecompositionCompartmentView",
+											"_id": "AAAAAAF_DecComp_Generated_0058",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Generated_0017"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Generated_0010"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 1135,
+											"width": 205
+										}
+									],
+									"font": "Microsoft YaHei;17;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"containerChangeable": true,
+									"left": 250,
+									"top": 1135,
+									"width": 205,
+									"height": 90,
+									"nameCompartment": {
+										"$ref": "AAAAAAF_NameComp_Generated_0055"
+									},
+									"internalActivityCompartment": {
+										"$ref": "AAAAAAF_IAComp_Generated_0056"
+									},
+									"internalTransitionCompartment": {
+										"$ref": "AAAAAAF_ITComp_Generated_0057"
+									},
+									"decompositionCompartment": {
+										"$ref": "AAAAAAF_DecComp_Generated_0058"
+									}
+								},
+								{
+									"_type": "UMLStateView",
+									"_id": "AAAAAAF_StateView_Failed_0018",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_State_Failed_0011"
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAF_NameComp_Failed_0059",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Failed_0018"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Failed_0011"
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHdYeZ6A=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Failed_0059"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"height": 17
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHdYf4hI=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Failed_0059"
+													},
+													"font": "Microsoft YaHei;17;1",
+													"parentStyle": true,
+													"left": 765,
+													"top": 907,
+													"width": 195,
+													"height": 17,
+													"text": "生成失败终止 (Failed)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHdYgvPs=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Failed_0059"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"width": 55.2666015625,
+													"height": 17,
+													"text": "(from )"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHdYhAHQ=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Failed_0059"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"height": 17,
+													"horizontalAlignment": 1
+												}
+											],
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 760,
+											"top": 900,
+											"width": 205,
+											"height": 29,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGeVOasHdYeZ6A="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGeVOasHdYf4hI="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGeVOasHdYgvPs="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGeVOasHdYhAHQ="
+											}
+										},
+										{
+											"_type": "UMLInternalActivityCompartmentView",
+											"_id": "AAAAAAF_IAComp_Failed_0060",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Failed_0018"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Failed_0011"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 760,
+											"top": 900,
+											"width": 205,
+											"height": 10
+										},
+										{
+											"_type": "UMLInternalTransitionCompartmentView",
+											"_id": "AAAAAAF_ITComp_Failed_0061",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Failed_0018"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Failed_0011"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 760,
+											"top": 900,
+											"width": 205,
+											"height": 10
+										},
+										{
+											"_type": "UMLDecompositionCompartmentView",
+											"_id": "AAAAAAF_DecComp_Failed_0062",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Failed_0018"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Failed_0011"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 760,
+											"top": 900,
+											"width": 205
+										}
+									],
+									"font": "Microsoft YaHei;17;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"containerChangeable": true,
+									"left": 760,
+									"top": 900,
+									"width": 205,
+									"height": 90,
+									"nameCompartment": {
+										"$ref": "AAAAAAF_NameComp_Failed_0059"
+									},
+									"internalActivityCompartment": {
+										"$ref": "AAAAAAF_IAComp_Failed_0060"
+									},
+									"internalTransitionCompartment": {
+										"$ref": "AAAAAAF_ITComp_Failed_0061"
+									},
+									"decompositionCompartment": {
+										"$ref": "AAAAAAF_DecComp_Failed_0062"
+									}
+								},
+								{
+									"_type": "UMLStateView",
+									"_id": "AAAAAAF_StateView_Expired_0019",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_State_Expired_0012"
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAF_NameComp_Expired_0063",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Expired_0019"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Expired_0012"
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHdYvTs0=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Expired_0063"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"height": 17
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHdYwhUA=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Expired_0063"
+													},
+													"font": "Microsoft YaHei;17;1",
+													"parentStyle": true,
+													"left": 775,
+													"top": 1132,
+													"width": 195,
+													"height": 17,
+													"text": "已过期 (Expired)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHdYxPzo=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Expired_0063"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"width": 55.2666015625,
+													"height": 17,
+													"text": "(from )"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGeVOasHtYyjgU=",
+													"_parent": {
+														"$ref": "AAAAAAF_NameComp_Expired_0063"
+													},
+													"visible": false,
+													"font": "Microsoft YaHei;17;0",
+													"parentStyle": true,
+													"height": 17,
+													"horizontalAlignment": 1
+												}
+											],
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 770,
+											"top": 1125,
+											"width": 205,
+											"height": 29,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGeVOasHdYvTs0="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGeVOasHdYwhUA="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGeVOasHdYxPzo="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGeVOasHtYyjgU="
+											}
+										},
+										{
+											"_type": "UMLInternalActivityCompartmentView",
+											"_id": "AAAAAAF_IAComp_Expired_0064",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Expired_0019"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Expired_0012"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 770,
+											"top": 1125,
+											"width": 205,
+											"height": 10
+										},
+										{
+											"_type": "UMLInternalTransitionCompartmentView",
+											"_id": "AAAAAAF_ITComp_Expired_0065",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Expired_0019"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Expired_0012"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 770,
+											"top": 1125,
+											"width": 205,
+											"height": 10
+										},
+										{
+											"_type": "UMLDecompositionCompartmentView",
+											"_id": "AAAAAAF_DecComp_Expired_0066",
+											"_parent": {
+												"$ref": "AAAAAAF_StateView_Expired_0019"
+											},
+											"model": {
+												"$ref": "AAAAAAF_State_Expired_0012"
+											},
+											"visible": false,
+											"font": "Microsoft YaHei;17;0",
+											"parentStyle": false,
+											"left": 770,
+											"top": 1125,
+											"width": 205
+										}
+									],
+									"font": "Microsoft YaHei;17;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"containerChangeable": true,
+									"left": 770,
+									"top": 1125,
+									"width": 205,
+									"height": 90,
+									"nameCompartment": {
+										"$ref": "AAAAAAF_NameComp_Expired_0063"
+									},
+									"internalActivityCompartment": {
+										"$ref": "AAAAAAF_IAComp_Expired_0064"
+									},
+									"internalTransitionCompartment": {
+										"$ref": "AAAAAAF_ITComp_Expired_0065"
+									},
+									"decompositionCompartment": {
+										"$ref": "AAAAAAF_DecComp_Expired_0066"
+									}
+								},
+								{
+									"_type": "UMLFinalStateView",
+									"_id": "AAAAAAF_FinalView_0023",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_FinalModel_0022"
+									},
+									"font": "Microsoft YaHei;17;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"containerChangeable": true,
+									"left": 330,
+									"top": 1290,
+									"width": 44,
+									"height": 44
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "AAAAAAF_TransitionView_init_created_0067",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_Transition_init_created_0024"
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEJykE=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_init_created_0067"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_init_created_0024"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 367,
+											"top": 121,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_init_created_0067"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEKwNg=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_init_created_0067"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_init_created_0024"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 382,
+											"top": 121,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 30,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_init_created_0067"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaELeq0=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_init_created_0067"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_init_created_0024"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 338,
+											"top": 122,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_init_created_0067"
+											},
+											"edgePosition": 1
+										}
+									],
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"head": {
+										"$ref": "AAAAAAF_StateView_Created_0013"
+									},
+									"tail": {
+										"$ref": "AAAAAAF_InitialView_0021"
+									},
+									"lineStyle": 1,
+									"points": "354:85;353:171",
+									"nameLabel": {
+										"$ref": "AAAAAAGeVO64JaEJykE="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGeVO64JaEKwNg="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGeVO64JaELeq0="
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "AAAAAAF_TransitionView_created_progress_0068",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_Transition_created_progress_0025"
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaENc6k=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_created_progress_0068"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_created_progress_0025"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 366,
+											"top": 331,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_created_progress_0068"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEOZGc=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_created_progress_0068"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_created_progress_0025"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 381,
+											"top": 331,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 30,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_created_progress_0068"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEPNr4=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_created_progress_0068"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_created_progress_0025"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 337,
+											"top": 332,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_created_progress_0068"
+											},
+											"edgePosition": 1
+										}
+									],
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"head": {
+										"$ref": "AAAAAAF_StateView_InProgress_0014"
+									},
+									"tail": {
+										"$ref": "AAAAAAF_StateView_Created_0013"
+									},
+									"lineStyle": 1,
+									"points": "352:263;352:414",
+									"nameLabel": {
+										"$ref": "AAAAAAGeVO64JaENc6k="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGeVO64JaEOZGc="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGeVO64JaEPNr4="
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "AAAAAAF_TransitionView_save_progress_0069",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_Transition_save_progress_0026"
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaERjnw=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_save_progress_0069"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_save_progress_0026"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 134,
+											"top": 473,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_save_progress_0069"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaESkpY=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_save_progress_0069"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_save_progress_0026"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 149,
+											"top": 473,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 30,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_save_progress_0069"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaET5wc=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_save_progress_0069"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_save_progress_0026"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 105,
+											"top": 474,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_save_progress_0069"
+											},
+											"edgePosition": 1
+										}
+									],
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"head": {
+										"$ref": "AAAAAAF_StateView_InProgress_0014"
+									},
+									"tail": {
+										"$ref": "AAAAAAF_StateView_InProgress_0014"
+									},
+									"points": "250:460;120:460;120:500;250:500",
+									"nameLabel": {
+										"$ref": "AAAAAAGeVO64JaERjnw="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGeVO64JaESkpY="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGeVO64JaET5wc="
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "AAAAAAF_TransitionView_progress_pending_0070",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_Transition_progress_pending_0027"
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEV8Ik=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_progress_pending_0070"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_progress_pending_0027"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 366,
+											"top": 574,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_progress_pending_0070"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEWaLA=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_progress_pending_0070"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_progress_pending_0027"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 381,
+											"top": 574,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 30,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_progress_pending_0070"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEX9jY=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_progress_pending_0070"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_progress_pending_0027"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 337,
+											"top": 575,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_progress_pending_0070"
+											},
+											"edgePosition": 1
+										}
+									],
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"head": {
+										"$ref": "AAAAAAF_StateView_Pending_0015"
+									},
+									"tail": {
+										"$ref": "AAAAAAF_StateView_InProgress_0014"
+									},
+									"lineStyle": 1,
+									"points": "352:506;352:657",
+									"nameLabel": {
+										"$ref": "AAAAAAGeVO64JaEV8Ik="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGeVO64JaEWaLA="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGeVO64JaEX9jY="
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "AAAAAAF_TransitionView_pending_generating_0071",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_Transition_pending_generating_0028"
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEZTUI=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_pending_generating_0071"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_pending_generating_0028"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 366,
+											"top": 817,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_pending_generating_0071"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEaiQE=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_pending_generating_0071"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_pending_generating_0028"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 381,
+											"top": 817,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 30,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_pending_generating_0071"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEbj1s=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_pending_generating_0071"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_pending_generating_0028"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 337,
+											"top": 818,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_pending_generating_0071"
+											},
+											"edgePosition": 1
+										}
+									],
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"head": {
+										"$ref": "AAAAAAF_StateView_Generating_0016"
+									},
+									"tail": {
+										"$ref": "AAAAAAF_StateView_Pending_0015"
+									},
+									"lineStyle": 1,
+									"points": "352:749;352:899",
+									"nameLabel": {
+										"$ref": "AAAAAAGeVO64JaEZTUI="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGeVO64JaEaiQE="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGeVO64JaEbj1s="
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "AAAAAAF_TransitionView_retry_failure_0072",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_Transition_retry_failure_0029"
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEdUPo=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_retry_failure_0072"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_retry_failure_0029"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 173,
+											"top": 800,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_retry_failure_0072"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEeBtM=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_retry_failure_0072"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_retry_failure_0029"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 158,
+											"top": 798,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 30,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_retry_failure_0072"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEfAs4=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_retry_failure_0072"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_retry_failure_0029"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 202,
+											"top": 803,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_retry_failure_0072"
+											},
+											"edgePosition": 1
+										}
+									],
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"head": {
+										"$ref": "AAAAAAF_StateView_Pending_0015"
+									},
+									"tail": {
+										"$ref": "AAAAAAF_StateView_Generating_0016"
+									},
+									"lineStyle": 3,
+									"points": "249:910;178:886;198:730;249:721",
+									"nameLabel": {
+										"$ref": "AAAAAAGeVO64JaEdUPo="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGeVO64JaEeBtM="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGeVO64JaEfAs4="
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "AAAAAAF_TransitionView_generating_generated_0073",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_Transition_generating_generated_0030"
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEhoww=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_generating_generated_0073"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_generating_generated_0030"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 366,
+											"top": 1055,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_generating_generated_0073"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEiMRI=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_generating_generated_0073"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_generating_generated_0030"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 381,
+											"top": 1055,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 30,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_generating_generated_0073"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEj8R4=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_generating_generated_0073"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_generating_generated_0030"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 337,
+											"top": 1056,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_generating_generated_0073"
+											},
+											"edgePosition": 1
+										}
+									],
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"head": {
+										"$ref": "AAAAAAF_StateView_Generated_0017"
+									},
+									"tail": {
+										"$ref": "AAAAAAF_StateView_Generating_0016"
+									},
+									"lineStyle": 1,
+									"points": "352:991;352:1134",
+									"nameLabel": {
+										"$ref": "AAAAAAGeVO64JaEhoww="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGeVO64JaEiMRI="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGeVO64JaEj8R4="
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "AAAAAAF_TransitionView_generated_final_0074",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_Transition_generated_final_0031"
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaElysc=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_generated_final_0074"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_generated_final_0031"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 366,
+											"top": 1250,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_generated_final_0074"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEmDnE=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_generated_final_0074"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_generated_final_0031"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 381,
+											"top": 1250,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 30,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_generated_final_0074"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEnFU0=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_generated_final_0074"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_generated_final_0031"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 337,
+											"top": 1251,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_generated_final_0074"
+											},
+											"edgePosition": 1
+										}
+									],
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"head": {
+										"$ref": "AAAAAAF_FinalView_0023"
+									},
+									"tail": {
+										"$ref": "AAAAAAF_StateView_Generated_0017"
+									},
+									"lineStyle": 1,
+									"points": "352:1226;352:1289",
+									"nameLabel": {
+										"$ref": "AAAAAAGeVO64JaElysc="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGeVO64JaEmDnE="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGeVO64JaEnFU0="
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "AAAAAAF_TransitionView_generated_expired_0075",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"model": {
+										"$ref": "AAAAAAF_Transition_generated_expired_0032"
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEpF7c=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_generated_expired_0075"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_generated_expired_0032"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 647,
+											"top": 1163,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_generated_expired_0075"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JaEqGqc=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_generated_expired_0075"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_generated_expired_0032"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 646,
+											"top": 1148,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 30,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_generated_expired_0075"
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGeVO64JqErfHs=",
+											"_parent": {
+												"$ref": "AAAAAAF_TransitionView_generated_expired_0075"
+											},
+											"model": {
+												"$ref": "AAAAAAF_Transition_generated_expired_0032"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 648,
+											"top": 1192,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAF_TransitionView_generated_expired_0075"
+											},
+											"edgePosition": 1
+										}
+									],
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"head": {
+										"$ref": "AAAAAAF_StateView_Expired_0019"
+									},
+									"tail": {
+										"$ref": "AAAAAAF_StateView_Generated_0017"
+									},
+									"lineStyle": 1,
+									"points": "456:1181;648:1184;769:1176",
+									"nameLabel": {
+										"$ref": "AAAAAAGeVO64JaEpF7c="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGeVO64JaEqGqc="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGeVO64JqErfHs="
+									}
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_generating_failed_000",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "455:945;472:945"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_generating_failed_001",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "483:945;500:945"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_generating_failed_002",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "511:945;528:945"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_generating_failed_003",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "539:945;556:945"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_generating_failed_004",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "567:945;584:945"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_generating_failed_005",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "595:945;612:945"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_generating_failed_006",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "623:945;640:945"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_generating_failed_007",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "651:945;668:945"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_generating_failed_008",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "679:945;696:945"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_generating_failed_009",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "707:945;724:945"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_generating_failed_010",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "735:945;736:945"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_generating_failed_011_arrow",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "736:945;760:945",
+									"headEndStyle": 1
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_manual_failed_000",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "760:940;748:928"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_manual_failed_001",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "740:920;729:908"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_manual_failed_002",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "721:900;710:887"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_manual_failed_003",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "703:878;692:865"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_manual_failed_004",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "685:857;674:844"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_manual_failed_005",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "667:835;656:822"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_manual_failed_006",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "649:814;637:802"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_manual_failed_007",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "630:794;618:782"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_manual_failed_008",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "610:774;597:763"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_manual_failed_009",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "588:756;575:746"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_manual_failed_010",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "566:740;551:731"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_manual_failed_011",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "541:726;526:719"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_manual_failed_012",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "516:715;500:709"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_manual_failed_013",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "489:706;479:704"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_manual_failed_014_arrow",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "479:704;455:700",
+									"headEndStyle": 1
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_history_expired_000",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "770:1140;754:1135"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_history_expired_001",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "743:1131;728:1125"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_history_expired_002",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "717:1121;702:1114"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_history_expired_003",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "692:1109;677:1101"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_history_expired_004",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "668:1095;653:1087"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_history_expired_005",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "643:1081;629:1072"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_history_expired_006",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "620:1066;606:1056"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_history_expired_007",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "597:1050;583:1040"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_history_expired_008",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "574:1034;561:1023"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_history_expired_009",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "552:1017;538:1007"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_history_expired_010",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "529:1000;516:990"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_history_expired_011",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "507:983;493:973"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_history_expired_012",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "485:966;475:959"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_history_expired_013_arrow",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "475:959;455:945",
+									"headEndStyle": 1
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_000",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "873:1125;889:1120"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_001",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "901:1116;916:1109"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_002",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "926:1102;940:1092"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_003",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "949:1084;960:1072"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_004",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "967:1062;977:1048"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_005",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "982:1037;989:1022"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_006",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "993:1010;998:994"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_007",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "1000:982;1003:966"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_008",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "1004:954;1005:937"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_009",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "1005:925;1004:908"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_010",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "1002:896;1000:879"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_011",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "998:867;993:851"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_012",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "990:839;985:823"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_013",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "981:812;974:796"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_014",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "969:785;962:770"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_015",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "956:759;947:745"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_016",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "941:735;931:721"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_017",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "924:711;914:697"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_018",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "906:688;895:675"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_019",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "887:667;875:654"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_020",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "866:646;854:635"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_021",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "845:627;832:616"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_022",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "822:608;809:598"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_023",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "799:591;785:582"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_024",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "775:575;760:566"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_025",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "750:560;735:552"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_026",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "724:546;709:539"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_027",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "698:533;683:526"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_028",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "672:522;656:515"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_029",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "645:511;629:505"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_030",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "618:501;602:495"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_031",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "590:492;574:487"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_032",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "562:484;546:479"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_033",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "534:476;518:472"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_034",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "506:470;489:466"
+								},
+								{
+									"_type": "FreelineEdgeView",
+									"_id": "AAAAAAF_ManualDash_expired_retest_035_arrow",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"font": "Microsoft YaHei;15;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"lineStyle": 1,
+									"points": "479:464;455:460",
+									"headEndStyle": 1
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_Label_init_created_0080",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;14;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 360,
+									"top": 120,
+									"width": 160,
+									"height": 55,
+									"text": "系统初始化\n/ create()",
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_Label_created_progress_0081",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;14;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 372,
+									"top": 310,
+									"width": 190,
+									"height": 58,
+									"text": "开始测评\n[已完成基础信息]",
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_Label_save_progress_0082",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;14;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 46,
+									"top": 408,
+									"width": 110,
+									"height": 48,
+									"text": "保存进度\n[未完成]",
+									"horzAlign": 2,
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_Label_progress_pending_0083",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;14;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 370,
+									"top": 548,
+									"width": 190,
+									"height": 56,
+									"text": "完成全部三项测评\n/ setStatus(待生成)",
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_Label_pending_generating_0084",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;14;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 248,
+									"top": 795,
+									"width": 155,
+									"height": 58,
+									"text": "用户触发生成\n/ callLLM()",
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_Label_retry_failure_0085",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;14;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 64,
+									"top": 785,
+									"width": 190,
+									"height": 76,
+									"text": "生成失败 / 重试\n[LLM异常或超时]\n/ logFailure()",
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_Label_generating_generated_0086",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;14;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 374,
+									"top": 1036,
+									"width": 190,
+									"height": 58,
+									"text": "生成成功 [LLM正常]\n/ persistProfile()",
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_Label_generated_final_0087",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;14;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 360,
+									"top": 1240,
+									"width": 180,
+									"height": 38,
+									"text": "账号注销 / destroy()",
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_Label_generated_expired_0088",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;14;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 480,
+									"top": 1120,
+									"width": 250,
+									"height": 58,
+									"text": "信息变更 / 超期(>90天)\n/ markExpired()",
+									"horzAlign": 2,
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_Label_generating_failed_0089",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;14;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 480,
+									"top": 896,
+									"width": 240,
+									"height": 50,
+									"text": "连续重试 > 3次仍失败\n/ notifyUser()",
+									"horzAlign": 2,
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_Label_manual_failed_0090",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;14;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 650,
+									"top": 775,
+									"width": 170,
+									"height": 38,
+									"text": "人工触发重新生成",
+									"horzAlign": 2,
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_Label_history_expired_0091",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;14;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 648,
+									"top": 1040,
+									"width": 145,
+									"height": 52,
+									"text": "基于历史数据\n直接再生成",
+									"horzAlign": 2,
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_Label_expired_retest_0092",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;14;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 1000,
+									"top": 752,
+									"width": 145,
+									"height": 55,
+									"text": "重新测评\n/ resetAnswers()",
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_StateCenter_Created_0093",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;17;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 256,
+									"top": 180,
+									"width": 193,
+									"height": 74,
+									"text": "未创建\n(Created)",
+									"horzAlign": 2,
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_StateCenter_InProgress_0094",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;17;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 256,
+									"top": 423,
+									"width": 193,
+									"height": 74,
+									"text": "测评进行中\n(InProgress)",
+									"horzAlign": 2,
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_StateCenter_Pending_0095",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;17;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 256,
+									"top": 666,
+									"width": 193,
+									"height": 74,
+									"text": "待生成\n(Pending)",
+									"horzAlign": 2,
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_StateCenter_Generating_0096",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;17;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 256,
+									"top": 908,
+									"width": 193,
+									"height": 74,
+									"text": "生成中\n(Generating)",
+									"horzAlign": 2,
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_StateCenter_Generated_0097",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;17;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 256,
+									"top": 1143,
+									"width": 193,
+									"height": 74,
+									"text": "已生成\n(Generated)",
+									"horzAlign": 2,
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_StateCenter_Failed_0098",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;17;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 766,
+									"top": 908,
+									"width": 193,
+									"height": 74,
+									"text": "生成失败终止\n(Failed)",
+									"horzAlign": 2,
+									"vertAlign": 5
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAF_Text_StateCenter_Expired_0099",
+									"_parent": {
+										"$ref": "AAAAAAF_StatechartDiagram_0004"
+									},
+									"lineColor": "#ffffff",
+									"font": "Microsoft YaHei;17;0",
+									"parentStyle": false,
+									"showShadow": false,
+									"left": 776,
+									"top": 1133,
+									"width": 193,
+									"height": 74,
+									"text": "已过期\n(Expired)",
+									"horzAlign": 2,
+									"vertAlign": 5
+								}
+							]
+						}
+					],
+					"regions": [
+						{
+							"_type": "UMLRegion",
+							"_id": "AAAAAAF_Region_0005",
+							"_parent": {
+								"$ref": "AAAAAAF_UserProfileStateMachine_0003"
+							},
+							"vertices": [
+								{
+									"_type": "UMLPseudostate",
+									"_id": "AAAAAAF_InitialModel_0020",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"kind": "initial"
+								},
+								{
+									"_type": "UMLState",
+									"_id": "AAAAAAF_State_Created_0006",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"name": "未创建 (Created)"
+								},
+								{
+									"_type": "UMLState",
+									"_id": "AAAAAAF_State_InProgress_0007",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"name": "测评进行中 (InProgress)"
+								},
+								{
+									"_type": "UMLState",
+									"_id": "AAAAAAF_State_Pending_0008",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"name": "待生成 (Pending)"
+								},
+								{
+									"_type": "UMLState",
+									"_id": "AAAAAAF_State_Generating_0009",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"name": "生成中 (Generating)"
+								},
+								{
+									"_type": "UMLState",
+									"_id": "AAAAAAF_State_Generated_0010",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"name": "已生成 (Generated)"
+								},
+								{
+									"_type": "UMLState",
+									"_id": "AAAAAAF_State_Failed_0011",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"name": "生成失败终止 (Failed)"
+								},
+								{
+									"_type": "UMLState",
+									"_id": "AAAAAAF_State_Expired_0012",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"name": "已过期 (Expired)"
+								},
+								{
+									"_type": "UMLFinalState",
+									"_id": "AAAAAAF_FinalModel_0022",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									}
+								}
+							],
+							"transitions": [
+								{
+									"_type": "UMLTransition",
+									"_id": "AAAAAAF_Transition_init_created_0024",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"documentation": "系统初始化\n/ create()",
+									"source": {
+										"$ref": "AAAAAAF_InitialModel_0020"
+									},
+									"target": {
+										"$ref": "AAAAAAF_State_Created_0006"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "AAAAAAF_Transition_created_progress_0025",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"documentation": "开始测评\n[已完成基础信息]",
+									"source": {
+										"$ref": "AAAAAAF_State_Created_0006"
+									},
+									"target": {
+										"$ref": "AAAAAAF_State_InProgress_0007"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "AAAAAAF_Transition_save_progress_0026",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"documentation": "保存进度\n[未完成]",
+									"source": {
+										"$ref": "AAAAAAF_State_InProgress_0007"
+									},
+									"target": {
+										"$ref": "AAAAAAF_State_InProgress_0007"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "AAAAAAF_Transition_progress_pending_0027",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"documentation": "完成全部三项测评\n/ setStatus(待生成)",
+									"source": {
+										"$ref": "AAAAAAF_State_InProgress_0007"
+									},
+									"target": {
+										"$ref": "AAAAAAF_State_Pending_0008"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "AAAAAAF_Transition_pending_generating_0028",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"documentation": "用户触发生成\n/ callLLM()",
+									"source": {
+										"$ref": "AAAAAAF_State_Pending_0008"
+									},
+									"target": {
+										"$ref": "AAAAAAF_State_Generating_0009"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "AAAAAAF_Transition_retry_failure_0029",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"documentation": "生成失败 / 重试\n[LLM异常或超时]\n/ logFailure()",
+									"source": {
+										"$ref": "AAAAAAF_State_Generating_0009"
+									},
+									"target": {
+										"$ref": "AAAAAAF_State_Pending_0008"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "AAAAAAF_Transition_generating_generated_0030",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"documentation": "生成成功 [LLM正常]\n/ persistProfile()",
+									"source": {
+										"$ref": "AAAAAAF_State_Generating_0009"
+									},
+									"target": {
+										"$ref": "AAAAAAF_State_Generated_0010"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "AAAAAAF_Transition_generated_final_0031",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"documentation": "账号注销 / destroy()",
+									"source": {
+										"$ref": "AAAAAAF_State_Generated_0010"
+									},
+									"target": {
+										"$ref": "AAAAAAF_FinalModel_0022"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "AAAAAAF_Transition_generated_expired_0032",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"documentation": "信息变更 / 超期(>90天)\n/ markExpired()",
+									"source": {
+										"$ref": "AAAAAAF_State_Generated_0010"
+									},
+									"target": {
+										"$ref": "AAAAAAF_State_Expired_0012"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "AAAAAAF_Transition_generating_failed_0033",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"documentation": "连续重试 > 3次仍失败\n/ notifyUser()",
+									"source": {
+										"$ref": "AAAAAAF_State_Generating_0009"
+									},
+									"target": {
+										"$ref": "AAAAAAF_State_Failed_0011"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "AAAAAAF_Transition_manual_failed_0034",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"documentation": "人工触发重新生成",
+									"source": {
+										"$ref": "AAAAAAF_State_Failed_0011"
+									},
+									"target": {
+										"$ref": "AAAAAAF_State_Pending_0008"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "AAAAAAF_Transition_history_expired_0035",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"documentation": "基于历史数据\n直接再生成",
+									"source": {
+										"$ref": "AAAAAAF_State_Expired_0012"
+									},
+									"target": {
+										"$ref": "AAAAAAF_State_Generating_0009"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "AAAAAAF_Transition_expired_retest_0036",
+									"_parent": {
+										"$ref": "AAAAAAF_Region_0005"
+									},
+									"documentation": "重新测评\n/ resetAnswers()",
+									"source": {
+										"$ref": "AAAAAAF_State_Expired_0012"
+									},
+									"target": {
+										"$ref": "AAAAAAF_State_InProgress_0007"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"documentVersion": 1
+}

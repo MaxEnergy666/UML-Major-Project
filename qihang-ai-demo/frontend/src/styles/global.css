@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #1677FF;
+  --success-color: #52C41A;
+  --warning-color: #FAAD14;
+  --danger-color: #F5222D;
+  --text-primary: #1d2129;
+  --text-secondary: #4e5969;
+  --text-placeholder: #86909c;
+  --bg-primary: #f0f2f5;
+  --bg-card: #ffffff;
+}
+
+.el-card {
+  border-radius: 8px;
+  border: none;
+}
+
+.el-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.page-header {
+  margin-bottom: 24px;
+}
+
+.page-header h2 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  color: var(--text-primary);
+}
+
+.page-header p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-placeholder);
+}
