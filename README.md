@@ -36,10 +36,10 @@
 ```
 UML-Major-Project/
 │
-├── qihang-ai-demo/                          # 🖥️ 源代码（前后端完整项目）
+├── qihang-ai-demo/                          # 🖥️ 源代码（仅是demo）
 │   ├── backend/                              #    Django 后端
 │   ├── frontend/                             #    Vue 3 前端
-│   └── README.md                             #    代码项目说明（含启动指南）
+│   └── README.md                             #    代码项目说明
 │
 ├── 第一次迭代0403——用例文本_用例图_领域模型/    # 📋 第一次迭代（4月3日）
 │   ├── 设计文档0403——第一次汇报.docx
