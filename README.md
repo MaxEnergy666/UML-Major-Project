@@ -2,7 +2,7 @@
 
 > UML 软件分析设计与建模大作业 · 完整项目仓库
 
-本仓库包含「启航AI」大学生职业生涯规划系统的 **全部开发产物**：源代码、三次迭代的设计文档与UML模型、成果汇报材料，以及课程案例教程。
+本仓库包含「启航AI」大学生职业生涯规划系统的 **全部开发产物**：源代码、四次迭代的设计文档与UML模型、成果汇报材料，以及课程案例教程。
 
 ---
 
@@ -54,13 +54,16 @@ UML-Major-Project/
 │   ├── 第二次汇报.pptx
 │   └── 逻辑架构和包图/                       #    逻辑架构图 + 包图
 │
-├── 第三次迭代——成果汇报_演讲稿_UML图_StarUML模型/  # 📋 第三次迭代（成果汇报）
+├── 第三次迭代0529——成果汇报_演讲稿_7种图/      # 📋 第三次迭代（5月29日）
 │   ├── 启航AI_汇报演讲稿.md
 │   ├── 启航AI——大学生职业生涯规划系统成果汇报.pptx
 │   ├── UML图/                               #    SSD、活动图、状态图
 │   └── StarUML模型文件/                      #    10 个 .mdj 模型 + 导出图
 │
-├── 启航AI_软件建模设计文档_v3.0.docx           # 📄 最终设计文档（v3.0）
+├── 第四次迭代0531——两大设计模式（GRASP+GoF）/  # 📋 第四次迭代（5月31日）
+│   ├── 启航AI_软件建模设计文档_v4.0.docx
+│   └── 启航AI_软件建模设计文档_v4.0.pdf
+│
 └── 软件分析设计与建模案例教程.pdf               # 📚 课程参考教程
 ```
 
@@ -87,7 +90,7 @@ UML-Major-Project/
 - 逻辑架构图 + UML 包图
 - 汇报 PPT
 
-### 第三次迭代（成果汇报）— UML 模型 · 代码实现 · 最终汇报
+### 第三次迭代（5月29日）— UML 模型 · 代码实现 · 成果汇报
 
 完成全部 UML 建模、代码开发与系统演示。
 
@@ -101,6 +104,33 @@ UML-Major-Project/
 - StarUML 源文件（.mdj）× 10
 - 完整可运行的源代码系统
 - 成果汇报 PPT + 演讲稿
+
+### 第四次迭代（5月31日）— 设计模式应用（GRASP + GoF）
+
+在前三次迭代的基础上，从「职责分配」和「结构与协作」两个角度对系统进行设计模式分析，说明启航AI系统在架构设计中遵循的 GRASP 9 大原则和应用的 GoF 经典设计模式。
+
+**产出物：**
+- 设计文档 v4.0（docx + pdf）
+
+**GRASP 原则应用（4.3.1）— 9 大原则：**
+
+| # | 原则 | 系统应用 |
+|---|------|----------|
+| 1 | 创建者 | User 作为聚合根，负责创建 UserProfile、CareerPlanReport 等业务对象 |
+| 2 | 专家 | MBTIResult.calculate() 等计算方法内聚在各自的测评实体内部 |
+| 3 | 控制器 | UserProfileController / CareerPlanController 等 Django REST 视图统一协调 HTTP 请求 |
+| 4 | 低耦合 | 通过 Repository / Adapter 接口隔离数据库和外部 API，变化影响半径最小化 |
+| 5 | 高耦合 | 每个 Service 只负责单一业务领域，职责内聚 |
+| 6 | 多态 | LLMService 接口 + MockLLMService / OpenAICompatibleLLMService 双实现，运行时通过配置切换 |
+| 7 | 纯虚构 | LLMAnalysisService、PromptBuilder 等为高内聚而虚构的纯服务类 |
+| 8 | 间接 | 通过 LLMService 接口间接调用外部大模型 API，不直接依赖具体供应商 |
+| 9 | 防止变异 | Adapter / Repository / Strategy 接口封装外部变化点（LLM 供应商、数据库、匹配算法等） |
+
+**GoF 设计模式应用（4.3.2）— 涵盖全部 23 种模式：**
+
+- **创建型（5 种）**：单例模式（LLMService 全局唯一）、原型模式（模板岗位克隆）、工厂方法（LLMServiceFactory）、抽象工厂（AssessmentFactory）、建造者（PromptBuilder 链式 API）
+- **结构型（7 种）**：代理模式（Nginx 反向代理）、适配器（OpenAICompatibleLLMService 统一不同 LLM 供应商）、桥接（LLMService 与 LLMProvider 解耦）、装饰器（DRF @permission_classes 装饰器）、外观（CareerPlanService 统一入口）、享元（岗位标签/城市枚举复用）、组合（提升建议树形结构）
+- **行为型（11 种）**：模板方法（BaseLLMService 定义算法骨架）、策略（MatchScoreStrategy 多种匹配算法）、命令（Celery Task 异步任务封装）、职责链（Django 中间件链）、状态（UserProfile 生命周期状态机）、观察者（UserProfileUpdated 事件驱动）、中介者（Service 层协调 Controller 与 Repository）、迭代器（Django ORM QuerySet）、访问者（简历结构多维分析）、备忘录（测评中断恢复）、解释器（PromptTemplate 占位符 / 岗位筛选 DSL）
 
 ---
 
